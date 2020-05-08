@@ -1,6 +1,6 @@
 {
   "name": "subgenre.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A extremely small library to extract the TLG (top-level-genre) from a subgenre of music",
   "main": "subgenre.js",
   "scripts": {
