@@ -5,7 +5,9 @@
 ```
 npm install subgenre.js
 ```
+### Information
 
+See how it was made [here](https://www.reddit.com/r/dataisbeautiful/comments/gfi9sv/oc_every_music_subgenre_built_from_everynoisecom/).
 ### Usage
 
 ```javascript
