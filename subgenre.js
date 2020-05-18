@@ -1,6 +1,11 @@
 const data = require('./genreset.json')
 const topLevelGenre = (genre) => {
-    return (data[genre] == 'done') ? genre : topLevelGenre(data[genre])
+    if (data[genre] == 'done') {
+        return genre
+    } else if (!data[genre]) {
+        return '__UNKNOWN__' // an unknown genre
+    }
+    return topLevelGenre(data[genre])
 }
 const allGenres = Object.keys(data).reduce((obj, g, i) => {
     obj[g] = i
